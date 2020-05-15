@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1OvLBQo1OxgmCdyi0O8n8m97bLZ5CpgXk?alt=media&key=AIzaSyBWAb8muNN4Eob8Cz8mInke3S8BTHnd0Jo'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1upaLTAjXZi6DCokTBfS55rpo8Mt6KxIB?alt=media&key=AIzaSyBIM1732OdUbyGNPQmoBJLIR939XFqs4qQ'
 export_file_name = 'export.pkl'
 
 classes = ['Jerry Seinfeld', 'George Costanza', 'Elaine Benes', 'Estelle Costanza', 'Cosmo Kramer', 'Newman',' Frank Costanza']
