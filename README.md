@@ -1,15 +1,7 @@
-# Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+#This App is a image classfier for characters from the show Seinfeld
+The model used for this classifer is resnet34 trained on Google image search results. This was made in lieu of assignment after completing the fast.ai course 'Practical Deep Learning for Coders'.
+This model can identify images of characters Jerry Seinfeld, Elaine Benes, George Costanza, Frank Costanza, Estelle Costanza, Cosmo Krame & Newman. The error rate achieved is ~0.07.
+Find the app at https://seinfeld-classifier.onrender.com/
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
 
-The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
 
-You can test your changes locally by installing Docker and using the following command:
-
-```
-docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3
-```
-
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
-
-Please use [Render's fast.ai forum thread](https://forums.fast.ai/t/deployment-platform-render/33953) for questions and support.
